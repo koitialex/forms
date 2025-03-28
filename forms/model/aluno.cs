@@ -10,11 +10,11 @@ namespace forms.model
     {
         public string Nome { get; set; }
         public string NumeroMatricula { get; set; }
-        public int Cpf { get; set; }
-        public int Telefone { get; set; }
+        public string Cpf { get; set; }
+        public string Telefone { get; set; }
         public endereco EnderecoAluno { get; set; }
         public string NomeMae { get; set; }
-        public string DataNacimento { get; set; }
+        public DateTime DataNascimento { get; set; }
         public string Email { get; set; }
     }
 }
